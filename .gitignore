@@ -1,0 +1,39 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 本机运行材料（wanggang-run-oss，不进仓库）
+/start.ps1
+/docs/RUN.md
+
+# 运行时目录
+/TEMP/
+/opt/
+/logs/
+/.model-downloads/
+
+# 官方不随仓库分发的权重与用户模型
+/assets/hubert_base/
+/assets/rmvpe/
+/assets/pretrained/
+/assets/pretrained_v2/
+/assets/weights/
+/assets/indices/
+/assets/pymss_weights/*
+!/assets/pymss_weights/*.yaml
+
+# Hugging Face / 工具缓存
+.cache/
+**/.cache/
+
+# Windows 官方文档提到可放在仓库根目录的 ffmpeg 副本（本机已有全局 ffmpeg）
+/ffmpeg.exe
+/ffprobe.exe
+
+# 编辑器与系统垃圾
+.DS_Store
+Thumbs.db
+*.swp
